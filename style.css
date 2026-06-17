@@ -1,0 +1,567 @@
+.heading1{
+    background: navy;
+    color: blanchedalmond;
+
+}
+
+#heading2{
+    background: navajowhite;
+    color: brown;
+}
+
+.box1{
+background: darkolivegreen;
+display: inline-block;
+padding: 10%;
+margin: 50px;
+
+}
+.main .box2{
+background: salmon;
+display: inline-block;
+padding: 10%;
+margin: 50px;
+border: 5px solid brown;
+border-radius: 10%;
+}
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: darkcyan;
+    margin: 20px;
+}
+
+.box:nth-child(odd){
+    background: plum;
+}
+
+.one{
+    width: 800px;
+    height: 600px;
+    background: rgb(207, 242, 244);
+}
+.two{
+    width: 800px;
+    height: 150px;
+    background: rgb(108, 159, 161);
+}
+.three{
+    width: 800px;
+    height: 150px;
+    background: rgb(223, 205, 210);
+    display: flex;
+}
+.four{
+    width: 800px;
+    height: 150px;
+    background: rgb(140, 222, 18);
+}
+.five{
+    width: 800px;
+    height: 150px;
+    background: rgb(237, 158, 54);
+    display: flex;
+}
+.six{
+    width: 400px;
+    height: 150px;
+    background: rgb(13, 188, 142);
+}
+.seven{
+    width: 400px;
+    height: 150px;
+    background: rgb(185, 91, 129);
+    display: flex;
+}
+.eight{
+    width: 100px;
+    height: 150px;
+    background: rgb(91, 185, 110);
+}
+.nine{
+    width: 100px;
+    height: 150px;
+    background: rgb(119, 91, 185);
+}
+.ten{
+    width: 100px;
+    height: 150px;
+    background: rgb(241, 168, 22);
+}
+.eleven{
+    width: 100px;
+    height: 150px;
+    background: rgb(239, 182, 215);
+}
+.twelve{
+    width: 100px;
+    height: 50px;
+    background: darkred;
+}
+.no13{
+    width: 100px;
+    height: 50px;
+    background: rgb(49, 124, 132);
+}
+.no14{
+    width: 100px;
+    height: 50px;
+    background: rgb(203, 145, 145);
+    display: flex;
+}
+
+.no15{
+    width:50px;
+    height: 50px;
+    background: rgb(161, 127, 209);
+}
+.no16{
+    width:50px;
+    height: 50px;
+    background: rgb(241, 238, 3);
+}
+.no17{
+    width: 400px;
+    height: 150px;
+    background: rgb(230, 92, 207);
+    display: flex;
+}
+.no18{
+    width: 400px;
+    height: 150px;
+    background: rgb(34, 234, 187);
+}
+.no19{
+    width: 200px;
+    height: 150px;
+    background: rgb(143, 5, 248);
+}
+.no20{
+    width: 200px;
+    height: 150px;
+    background: rgb(77, 42, 64);
+}
+.no21{
+    width: 200px;
+    height: 75px;
+    background: rgba(227, 12, 148, 0.231);
+}
+.no22{
+    width: 200px;
+    height: 75px;
+    background: rgb(77, 42, 64);
+    display: flex;
+}
+.no23{
+    width: 40px;
+    height: 75px;
+    background: rgb(210, 142, 82);
+}
+.no24{
+    width: 40px;
+    height: 75px;
+    background: rgb(89, 217, 87);
+}
+.no25{
+    width: 40px;
+    height: 75px;
+    background: rgb(212, 176, 14);
+}
+.no26{
+    width: 40px;
+    height: 75px;
+    background: rgb(174, 82, 210);
+}
+.no27{
+    width: 40px;
+    height: 75px;
+    background: rgb(32, 205, 35);
+}
+.no28{
+    width: 40px;
+    height: 25px;
+    background: rgb(136, 32, 205);
+}
+.no29{
+    width: 40px;
+    height: 25px;
+    background: rgb(39, 217, 249);
+}
+.no30{
+    width: 40px;
+    height: 25px;
+    background: rgb(32, 205, 35);
+    display: flex;
+}
+.no31{
+    width: 13px;
+    height: 25px;
+    background: rgb(35, 121, 36);
+}
+.no32{
+    width: 13px;
+    height: 25px;
+    background: rgb(162, 15, 191);
+}
+.no33{
+    width: 14px;
+    height: 25px;
+    background: rgb(205, 32, 32);
+}
+
+
+.flags{
+    width: 600px;
+    height: 500px;
+    background: rgb(249, 235, 224);
+}
+.n1{
+    width: 600px;
+    height: 166px;
+    background: rgb(249, 235, 224);
+    display: flex;
+    justify-content: space-around;
+}
+.n2{
+    width: 600px;
+    height: 166px;
+    background: rgb(249, 235, 224);
+    display: flex;
+    justify-content: space-around;
+}
+.n3{
+    width: 600px;
+    height: 167px;
+    background: rgb(249, 235, 224);
+    display: flex;
+    justify-content: space-around;
+}
+.UAE{
+    width: 180px;
+    height: 160px;
+    display: flex;
+   
+}
+ .UAE .red{
+    width: 30px;
+    height: 160px;
+    background: rgb(234, 52, 52);
+} 
+ .UAE .rest{
+    width: 150px;
+    height: 160px;
+    
+} 
+ .UAE .rest .green{
+    width: 150px;
+    height: 53px;
+    background: rgb(45, 146, 45);
+} 
+ .UAE .rest .white{
+    width: 150px;
+    height: 54px;
+    background: white;
+} 
+ .UAE .rest .black{
+    width: 150px;
+    height: 53px;
+    background: black;
+} 
+.Belgium .black{
+    width: 180px;
+    height: 53px;
+    background: black;
+}
+.Belgium .yellow{
+    width: 180px;
+    height: 53px;
+    background: yellow;
+}
+.Belgium .red{
+    width: 180px;
+    height: 54px;
+    background: red;
+}
+.Germany{
+    display: flex;
+}
+.Germany .black{
+    width: 60px;
+    height: 160px;
+    background: black;
+}
+.Germany .yellow{
+    width: 60px;
+    height: 160px;
+    background: yellow;
+}
+.Germany .red{
+    width: 60px;
+    height: 160px;
+    background: red;
+}
+
+.BD .green{
+    width: 180px;
+    height: 160px;
+    background: green;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.BD .green .red{
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+}
+.japan .white{
+    width: 180px;
+    height: 160px;
+    background: white;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.japan .white .red{
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+}
+.morocco .red{
+    width: 180px;
+    height: 80px;
+    background: red;
+}
+.morocco .white{
+    width: 180px;
+    height: 80px;
+    background: white;
+}
+
+.poland .white{
+    width: 180px;
+    height: 80px;
+    background: white;
+}
+.poland .red{
+    width: 180px;
+    height: 80px;
+    background: red;
+}
+.nigeria{
+    display: flex;
+}
+.nigeria .green1{
+    width: 60px;
+    height: 160px;
+    background: green;
+}
+.nigeria .white{
+    width: 60px;
+    height: 160px;
+    background: rgb(252, 254, 252);
+}
+.nigeria .green2{
+    width: 60px;
+    height: 160px;
+    background: green;
+}
+.russia .white{
+    width: 180px;
+    height: 53px;
+    background: white;
+}
+.russia .blue{
+    width: 180px;
+    height: 53px;
+    background: blue;
+}
+.russia .red{
+    width: 180px;
+    height: 54px;
+    background: red;
+}
+
+.main1{
+
+    width: 500px;
+    height: 300px;
+    background: red;
+    animation: ani 3s infinite alternate;
+    
+}
+
+@keyframes ani{
+0%{
+ background: saddlebrown;
+}
+25%{
+background:salmon ;
+}
+50%{
+background: seagreen;
+}
+100%{
+background: silver;
+}
+}
+
+
+ *{
+    margin: 0;
+    padding: 0;
+} 
+
+.parent{
+    width: 100%;
+    height: 100vh;
+    /* 100vh means 100% of the viewport's height,
+     or the full height of the screen */
+    background: black;
+    position: relative;
+    
+}
+.parent h1{
+    color: white;
+    font-size: 70px;
+}
+.parent .name1{
+    position: absolute;
+    top: 10%;
+    left:  10%;
+    transform: translate(-50%,-50%);
+    animation: ani1 1s forwards;
+}
+.parent .name2{
+    position: absolute;
+    top: 90%;
+    left:  90%;
+    transform: translate(-50%,-50%);
+    animation: ani2 1s forwards;
+}
+@keyframes ani1{
+    from{
+    top: 10%;
+    left:  10%;
+    scale: 0;
+    letter-spacing: 50px;
+    filter: blur(40px);
+    }to{
+    top: 50%;
+    left:  40%;
+    scale: 1;
+    letter-spacing: 0px;
+    filter: blur(0px);
+    }
+}
+
+@keyframes ani2{
+    from{
+    top: 90%;
+    left:  90%;
+    scale: 0;
+    letter-spacing: 50px;
+    filter: blur(40px);
+    }to{
+    top: 50%;
+    left:  60%;
+    scale: 1;
+    letter-spacing: 0px;
+    filter: blur(0px);
+    }
+}
+
+
+.nav{
+background: #fffdca;
+padding: 15px 0px;
+}
+.container9{
+width: 1320px;
+margin: 0 auto;
+
+}
+.box9{
+    display: flex;
+    align-items: center; 
+    /* so the items will be middle from up and down */
+}
+
+.left-logo{
+    width: 50%;
+    display: flex;
+    align-items: center; /* so the logo will not */
+    column-gap: 10px; /* take the whole space */
+
+}
+.right-menu{
+    width: 50%;
+}
+.left-logo img{
+    width: 70px;
+}
+.left-logo h4{
+    text-transform: uppercase;
+}
+
+.right-menu ul{
+    display: flex;
+    column-gap: 30px;
+    list-style: none;  /* remove dots */
+}
+.right-menu a{
+    text-decoration: none;  /* remove underlines */
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize; 
+    /* to make all first capital */
+    transition: .5s; /* to make the hover effect smooth */
+}
+
+.right-menu a:hover{
+    color: rgb(238, 20, 20);
+}
+ .banner{
+    width: 100%;
+    /* height: 500px; */
+    height: 100vh;
+    background-image: url(./pic/cover.jpg);
+    background-position: center; 
+    /* to make the background image centered */
+    background-size: cover;
+    /* to make the background image cover the entire container */
+    background-repeat: no-repeat;
+}
+.banner h1{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    font-size: 90px;
+}
+.banner p{
+    font-size:50px;
+    color: rgb(112, 21, 21);
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    /* to center the paragraph */
+}
+
+
+
+
+
+
+
+
+
+
+   
+ 
+
+
+

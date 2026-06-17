@@ -1,0 +1,123 @@
+.one{
+    width: 300px;
+    height: 300px;
+    background: red;
+    position:relative;
+}
+
+.one::after{
+width:100px;
+height:100px;
+background:blue;   
+position:absolute;
+top:0;
+left:0;
+content:"";
+}
+
+.one::before{
+width:100px;
+height:100px;   
+background:green;
+position:absolute;  
+top:0;
+left:100px;
+content:"";
+}
+
+.nav{
+background: #fffdca;
+padding: 15px 0px;
+}
+.ulone{
+    list-style: none;
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    cursor: pointer;
+    /* provide a visual cue to users that an item is clickable  */
+}
+li{
+    position: relative;
+    overflow: hidden;
+}
+li:hover{
+    overflow: visible;
+}
+/* to make a line under the text */
+li::after{
+    width: 0%;
+    height: 2px;
+    background: red;
+    position: absolute; 
+    bottom: -3px;
+    left: 0;
+    content: "";
+    transition: .4s;
+}
+
+li:hover::after{
+    width: 100%;
+
+}
+li::before{
+    width: 0%;
+    height: 2px;
+    background: blue;
+    position: absolute; 
+    top: -3px;
+    right: 0;
+    content: "";
+    transition: .4s;
+}
+li:hover::before{
+    width: 100%;
+}
+.two{
+    position: relative;
+    
+}
+.three li{
+    margin-bottom: 10px;
+}
+.three{
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    left: 1px;
+    background: #fffdca;
+    border: 2px solid #f07e3b;
+    padding: 10px 20px;
+    opacity: 0;
+}
+li:hover .three{
+    opacity: 1;
+}
+.five{
+     list-style: none;
+    position: absolute;
+    top: 5px;
+    left: 61px;
+    background: #f07e3b;
+    border: 2px solid black;
+    padding: 10px;
+    display: none;
+}
+.four:hover .five{
+    display: block;
+   
+}
+.container{
+        width: 100%;
+    /* height: 500px; */
+    height: 100vh;
+    background-image: url(./pic/cover.jpg);
+    background-position: center; 
+    /* to make the background image centered */
+    background-size: cover;
+    /* to make the background image cover the entire container */
+    background-repeat: no-repeat;
+}
+
+
+   
