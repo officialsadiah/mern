@@ -1,28 +1,79 @@
-
+ h1{
+    text-align: center;
+    color: darkblue;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: italic;
+}
+p{
+    text-align: center;
+    color: darkblue;
+    font-size: 16px;
+  padding-top: 30px;
+  width: 800px;
+  margin: auto;
+    font-style: italic;
+} 
 
 @media (min-width:320px) and (max-width:575px) {
-    .item{
-    width: 100%;
-    background: lemonchiffon;
-    height: 320px;
-    margin-top: 50px;
-    }
+h1{
+    text-align: center;
+    color: rgb(186, 61, 78);
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+
 }
-@media (min-width:576px) and (max-width:767px) {
-    .item{
-    width: 100%;
-    background: pink;
-    height: 320px;
-    margin-top: 20px;
-    }
+p{
+    text-align: center;
+    color: darkblue;
+    font-size: 12px;
+  padding-top: 20px;
+   width: auto;
+   /* make width auto to fit the screen size */
+  margin: auto;
+    font-style: italic;
 }
+}
+ @media (min-width:576px) and (max-width:767px) {
+   h1{
+    text-align: center;
+    color: rgb(43, 166, 117);
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+
+}
+p{
+    text-align: center;
+    color: red;
+    font-size: 12px;
+  padding-top: 13px;
+   width: auto;
+   /* make width auto to fit the screen size */
+  margin: auto;
+    font-style: italic;
+    line-height: 1.5; /* add line height for better readability */
+}
+}
+
 @media (min-width:768px) and (max-width:991px) {
-    .item{
-    width: 100%;
-    background: lightskyblue;
-    height: 320px;
-    margin-top: 20px;
-    }
+    h1{
+    text-align: center;
+    color: red;
+    font-size: 49px;
+    font-weight: 700;
+    font-style: italic;
+}
+p{
+    text-align: center;
+    color: darkblue;
+    font-size: 16px;
+  padding-top: 10px;
+  width: auto;
+  margin: auto;
+    font-style: italic;
+} 
 }
 @media (min-width:992px) and (max-width:1199px) {
     .item{
@@ -39,4 +90,4 @@
     height: 320px;
     margin-top: 20px;
     }
-}
+} 
