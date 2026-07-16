@@ -1,14 +1,13 @@
 
+// style in DOM Javascript
 
+let heading = document.querySelector("#x")
+heading.innerHTML="Editing on DOM Class"
 
-let heading = document.getElementsByClassName("x")
-
-heading[0].innerHTML="sad"
-// we need to use [0] so it knows which element with "getElementsByClassName"
-
-let heading = document.querySelector(".x")
-heading.innerHTML="sadia"
-
+heading.style.background = "red"
+heading.style.color = "white"
+heading.style.fontSize = "50px"
+heading.style.fontWeight = "400"
 
 
 
