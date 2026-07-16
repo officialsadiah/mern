@@ -1,16 +1,41 @@
 
-// style in DOM Javascript
 
 let heading = document.querySelector("#x")
-heading.innerHTML="Editing on DOM Class"
+let pink = document.querySelector(".pink")
+let red = document.querySelector(".red")
+let blue = document.querySelector(".blue")
+let green = document.querySelector(".green")
+let yellow = document.querySelector(".yellow")
+let gray = document.querySelector(".gray")
 
-heading.style.background = "red"
-heading.style.color = "white"
-heading.style.fontSize = "50px"
-heading.style.fontWeight = "400"
 
+pink.addEventListener("click" , ()=>{
+    heading.innerHTML = "The webpage is pink"
+    heading.style.background = "pink"
+})
 
+red.addEventListener("click" , ()=>{
+    heading.innerHTML = "The webpage is red"
+    heading.style.background = "red"
+})
 
+blue.addEventListener("click" , ()=>{
+    heading.innerHTML = "The webpage is blue"
+    heading.style.background = "blue"
+})
+
+green.addEventListener("click" , ()=>{
+    heading.innerHTML = "The webpage is green"
+    heading.style.background = "green"
+})
+yellow.addEventListener("click" , ()=>{
+    heading.innerHTML = "The webpage is yellow"
+    heading.style.background = "yellow"
+})
+gray.addEventListener("click" , ()=>{
+    heading.innerHTML = "The webpage is gray"
+    heading.style.background = "gray"
+})
 // document is like a book, inside it all the chapters
 // getElementsByTagName('h1')[0] = first element of h1 
 // innerHTML = inside html like <h1>hello</h1> , so hello is inside html h1
