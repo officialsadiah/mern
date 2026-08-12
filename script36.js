@@ -46,7 +46,8 @@ switch (month) {
     case 11: monthName = "December"; break;
 }
 
-console.log(dayName);
-console.log(dayNumber + " " + monthName + " " + year);
+document.getElementById("day").innerHTML = dayName;
 
+document.getElementById("date").innerHTML =
+    dayNumber + " " + monthName + " " + year;
 
