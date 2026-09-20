@@ -1,0 +1,38 @@
+.main{
+    width: 250px;
+    height: 350px;
+    background: aqua;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    text-align: center;
+}
+.main2{
+    width: 250px;
+    height: 350px;
+    background: rgb(116, 38, 180);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    text-align: center;
+}
+.button{
+    background: rgb(216, 35, 35);
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 0px;
+    color: aliceblue;
+}
+.button2{
+    background: rgb(46, 26, 224);
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 0px;
+    color: aliceblue;
+}
