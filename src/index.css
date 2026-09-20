@@ -1,0 +1,19 @@
+.main{
+    width: 250px;
+    height: 350px;
+    background: aqua;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    text-align: center;
+}
+.button{
+    background: purple;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 0px;
+    color: aliceblue;
+}
