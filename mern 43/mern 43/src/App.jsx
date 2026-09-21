@@ -3,13 +3,12 @@ import React, { useState } from 'react'
 const App = () => {
 
 let [show,setShow] = useState(false)
-let handleShow=()=>{
-  setShow(!show)
-}
-// whatever in show, with each click it will chage it
+
   return (
     <>
-    <button onClick={handleShow}>show</button>
+    <button onClick={()=>setShow(!show)}>{show?"Hidden":"show"}</button>
+{/* inside the wrintting section, we can put what to apear in the button written */}
+
     {
       show && <p>Lorem ipsum dolor, sit amet consectetur 
         adipisicing elit. Voluptatum beatae rem ab
